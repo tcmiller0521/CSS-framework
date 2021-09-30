@@ -2,8 +2,9 @@
 
 The challenge is to create a website using components from a CSS Framework. The componenets you need to include are in the index.html. Content can be generic, the main goal is to get you comfortable with finding and implementing CSS Frameworks. I will do a code review with each of you after you push up your `develop-<your-name-here>` branch to my repository: https://github.com/kelsu02/css-framework-project.git
 
-If you need images Unsplash is free for commercial/private/any use. File sizes are large so click on the image in that pop up that comes up click the arrow next to download free and take the small image. Otherwise you may need to run them through an image compressor to be able to push up your project to GitHub if your internet connection is not great.
-https://github.com/kelsu02/css-framework-project.git
+If you need images Unsplash (https://unsplash.com/) is free for commercial/private/any use. File sizes are large so click on the image in that pop up that comes up click the arrow next to download free and take the small image. Otherwise you may need to run them through an image compressor to be able to push up your project to GitHub if your internet connection is not great.
+
+
 https://imagecompressor.com/
 
 
