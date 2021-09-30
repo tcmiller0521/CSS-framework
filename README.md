@@ -20,7 +20,7 @@ https://imagecompressor.com/
 4. cd into css-framework-project
 5. Checkout a develop branch with your name: `git checkout -b develop-<your-name-here>`
     - This command creates a new branch and puts you on it. It's the equivalent of `git
-6. Set up your mygh remote (to your repository): `git remote add upstream https://github.com/<your-user-name>/css-framework-project`
+6. Set up your mygh remote (to your repository): `git remote add mygh https://github.com/<your-user-name>/css-framework-project`
     - Same thing here about the SSH key instead of the Https
     - To push to this remote: `git push mygh`  
 
