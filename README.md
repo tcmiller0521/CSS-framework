@@ -20,9 +20,9 @@ https://imagecompressor.com/
 4. cd into css-framework-project
 5. Checkout a develop branch with your name: `git checkout -b develop-<your-name-here>`
     - This command creates a new branch and puts you on it. It's the equivalent of `git
-6. Set up your upstream remote (to your repository): `git remote add upstream https://github.com/<your-user-name>/css-framework-project`
+6. Set up your mygh remote (to your repository): `git remote add upstream https://github.com/<your-user-name>/css-framework-project`
     - Same thing here about the SSH key instead of the Https
-    - To push to this remote: `git push upstream`  
+    - To push to this remote: `git push mygh`  
 
 More information on git remotes: https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
 
@@ -49,8 +49,8 @@ More information on git remotes: https://git-scm.com/book/en/v2/Git-Basics-Worki
         - You should see this remote information: To https://github.com/kelsu02/css-framework-project.git
         - To check remote `git remote -v`
 3. Push your changes to your own repository (if you want to keep a copy)
-    - FIRST PUSH: `git push --set-upstream upstream develop-<your-name>`
-    - `git push upstream`
+    - FIRST PUSH: `git push --set-upstream mygh develop-<your-name>`
+    - `git push mygh`
         - You should see this remote information: To https://github.com/<your-github-username\>/css-framework-project.git
         - to check remote `git remote -v`
 
