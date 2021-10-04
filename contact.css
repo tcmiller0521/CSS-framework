@@ -1,0 +1,99 @@
+:root {
+    --background-light: #F9F5F1;
+    --bs-light: #F9F5F1;
+    --bs-light-rgb: 249, 245, 241;
+    --bs-secondary: #292F36;
+    --bs-secondary-rgb: 41, 47, 54;
+    --bs-primary: #8198B7;
+    --bs-primary-rgb: 129, 152, 183;
+    --bs-info: #C8D5B9;
+    --bs-info-rgb: 200, 213, 185;
+}
+
+body {
+    margin: 0;
+    font-family: oswaldbold;
+    color: var(--bs-body-color);
+    background-color: var(--background-light);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+   /* Fonts */
+
+@font-face {
+    font-family: oswaldreg;
+    src: url(assets/fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: oswaldbold;
+    src: url(assets/fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: oswaldlight;
+    src: url(assets/fonts/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family: akwereg;
+    src: url(assets/fonts/ROHH\ \ Akwe\ Pro\ Regular.otf);
+}
+
+/* Text Design */
+
+.sectionpara {
+    font-family: akwereg;
+}
+
+.sectionheader {
+    font-family: oswaldbold;
+}
+
+
+.herotext {
+    font-family: Bebas;
+    letter-spacing: .25rem;
+}
+
+.title {
+    font-family: oswaldbold;
+    letter-spacing: .7rem;
+}
+
+.aboutme {
+    font-family: akwereg;
+}
+/* Form Design */
+
+.formbox {
+    width: 364px;
+    height: 72px;
+    background-color: #F3EBE2;
+    border: none;
+    border-radius: 25px;
+}
+
+.formtext {
+    font-family: Handoblack;
+    color: #E1CDB7;
+    font-size: 16px;
+    padding-left: 25px;
+}
+
+.textbox {
+    width: 760px;
+    height: 150px;
+    background-color: #F3EBE2;
+    border: none;
+    border-radius: 25px;
+}
+
+/* General */
+
+.btn-info {
+    background-color: var(--bs-info) !important;
+    border: none;
+ }
+

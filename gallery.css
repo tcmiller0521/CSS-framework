@@ -1,0 +1,121 @@
+:root {
+    --background-light: #F9F5F1;
+    --bs-light: #F9F5F1;
+    --bs-light-rgb: 249, 245, 241;
+    --bs-secondary: #292F36;
+    --bs-secondary-rgb: 41, 47, 54;
+    --bs-primary: #8198B7;
+    --bs-primary-rgb: 129, 152, 183;
+    --bs-info: #C8D5B9;
+    --bs-info-rgb: 200, 213, 185;
+}
+
+body {
+    margin: 0;
+    font-family: oswaldbold;
+    color: var(--bs-body-color);
+    background-color: var(--background-light);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+   /* Fonts */
+
+@font-face {
+    font-family: oswaldreg;
+    src: url(assets/fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: oswaldbold;
+    src: url(assets/fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: oswaldlight;
+    src: url(assets/fonts/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family: akwereg;
+    src: url(assets/fonts/ROHH\ \ Akwe\ Pro\ Regular.otf);
+}
+
+/* Text Design */
+
+.sectionpara {
+    font-family: akwereg;
+}
+
+.sectionheader {
+    font-family: oswaldbold;
+}
+
+
+.herotext {
+    font-family: Bebas;
+    letter-spacing: .25rem;
+}
+
+.title {
+    font-family: oswaldbold;
+    letter-spacing: .7rem;
+}
+
+.aboutme {
+    font-family: akwereg;
+}
+
+/* General */
+
+.btn-info {
+    background-color: var(--bs-info) !important;
+    border: none;
+ }
+
+.imgrow1{
+    height: 70vh;
+    background-size: cover;
+    background-image: url(assets/photos/plane.png);
+}
+
+.imgrow2{
+    height: 70vh;
+    background-size: cover;
+    background-image: url(assets/photos/boat.jpeg);
+}
+
+ .imgcol1 {
+    height: 100vh;
+    min-height: 50vh;
+    background-size: cover;
+    background-image: url(assets/photos/hike.jpeg);
+}
+
+ .imgcol2 {
+    height: 100vh;
+    min-height: 50vh;
+    background-size: cover;
+    background-image: url(assets/photos/mc-t.jpg);
+}
+
+ .imgcol3 {
+    background: url(assets/photos/oakley.jpg);
+    height: 100vh;
+    min-height: 50vh;
+    background-size: cover;
+}
+
+.imgcol4 {
+    height: 100vh;
+    min-height: 50vh;
+    background-size: cover;
+    background-image: url(assets/photos/horse.jpg);
+}
+
+ .imgcol5 {
+    background: url(assets/photos/archery.JPG);
+    height: 100vh;
+    min-height: 50vh;
+    background-size: cover;
+}
